@@ -15,7 +15,7 @@ struct HomeView: View {
                   Image(systemName: "house.fill")
                   Text("홈")
                 }
-              Text("혜택")
+              BenefitView()
                 .tabItem {
                   Image(systemName: "diamond.fill")
                   Text("혜택")
