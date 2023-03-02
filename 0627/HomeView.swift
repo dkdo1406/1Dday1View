@@ -20,7 +20,7 @@ struct HomeView: View {
                   Image(systemName: "diamond.fill")
                   Text("혜택")
                 }
-              Text("송금")
+            TransferView()
                 .tabItem {
                   Image(systemName: "dollarsign.circle.fill")
                   Text("송금")

@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0B507A6287FEE64004D9CFA /* 0714.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B507A5287FEE64004D9CFA /* 0714.swift */; };
 		E0C22AA72869CAA800CBCD94 /* _627App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C22AA62869CAA800CBCD94 /* _627App.swift */; };
 		E0C22AA92869CAA800CBCD94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C22AA82869CAA800CBCD94 /* ContentView.swift */; };
 		E0C22AAB2869CAA900CBCD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C22AAA2869CAA900CBCD94 /* Assets.xcassets */; };
 		E0C22AAE2869CAA900CBCD94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C22AAD2869CAA900CBCD94 /* Preview Assets.xcassets */; };
 		E0C22AB52869F4C700CBCD94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C22AB42869F4C700CBCD94 /* HomeView.swift */; };
+		E0C2FD77287ECE2900E93627 /* PresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2FD76287ECE2900E93627 /* PresentationView.swift */; };
 		E0C70AE9286B0F4700BE977F /* BenefitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C70AE8286B0F4700BE977F /* BenefitView.swift */; };
+		E0C70AEC286C982500BE977F /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C70AEB286C982500BE977F /* TransferView.swift */; };
+		E0C70AEF286D22D400BE977F /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C70AEE286D22D400BE977F /* RecommendView.swift */; };
+		E0C70AF1286D22F400BE977F /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C70AF0286D22F400BE977F /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0B507A5287FEE64004D9CFA /* 0714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 0714.swift; sourceTree = "<group>"; };
 		E0C22AA32869CAA800CBCD94 /* 0627.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0627.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C22AA62869CAA800CBCD94 /* _627App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _627App.swift; sourceTree = "<group>"; };
 		E0C22AA82869CAA800CBCD94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0C22AAA2869CAA900CBCD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C22AAD2869CAA900CBCD94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0C22AB42869F4C700CBCD94 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E0C2FD76287ECE2900E93627 /* PresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationView.swift; sourceTree = "<group>"; };
 		E0C70AE8286B0F4700BE977F /* BenefitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitView.swift; sourceTree = "<group>"; };
+		E0C70AEB286C982500BE977F /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		E0C70AEE286D22D400BE977F /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
+		E0C70AF0286D22F400BE977F /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,12 @@
 		E0C22A9A2869CAA800CBCD94 = {
 			isa = PBXGroup;
 			children = (
+				E0B507A5287FEE64004D9CFA /* 0714.swift */,
+				E0C22AAA2869CAA900CBCD94 /* Assets.xcassets */,
+				E0C22AA62869CAA800CBCD94 /* _627App.swift */,
+				E0C2FD75287ECD9800E93627 /* 0713 */,
+				E0C70AED286D22BD00BE977F /* 0630 */,
+				E0C70AEA286C96CF00BE977F /* 0629 */,
 				E0C22AB6286B0EDA00CBCD94 /* 0628 */,
 				E0C22AB42869F4C700CBCD94 /* HomeView.swift */,
 				E0C22AA52869CAA800CBCD94 /* 0627 */,
@@ -57,9 +73,7 @@
 		E0C22AA52869CAA800CBCD94 /* 0627 */ = {
 			isa = PBXGroup;
 			children = (
-				E0C22AA62869CAA800CBCD94 /* _627App.swift */,
 				E0C22AA82869CAA800CBCD94 /* ContentView.swift */,
-				E0C22AAA2869CAA900CBCD94 /* Assets.xcassets */,
 				E0C22AAC2869CAA900CBCD94 /* Preview Content */,
 			);
 			path = 0627;
@@ -79,6 +93,31 @@
 				E0C70AE8286B0F4700BE977F /* BenefitView.swift */,
 			);
 			path = 0628;
+			sourceTree = "<group>";
+		};
+		E0C2FD75287ECD9800E93627 /* 0713 */ = {
+			isa = PBXGroup;
+			children = (
+				E0C2FD76287ECE2900E93627 /* PresentationView.swift */,
+			);
+			path = 0713;
+			sourceTree = "<group>";
+		};
+		E0C70AEA286C96CF00BE977F /* 0629 */ = {
+			isa = PBXGroup;
+			children = (
+				E0C70AEB286C982500BE977F /* TransferView.swift */,
+				E0C70AEE286D22D400BE977F /* RecommendView.swift */,
+			);
+			path = 0629;
+			sourceTree = "<group>";
+		};
+		E0C70AED286D22BD00BE977F /* 0630 */ = {
+			isa = PBXGroup;
+			children = (
+				E0C70AF0286D22F400BE977F /* AccountView.swift */,
+			);
+			path = 0630;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B507A6287FEE64004D9CFA /* 0714.swift in Sources */,
+				E0C2FD77287ECE2900E93627 /* PresentationView.swift in Sources */,
 				E0C70AE9286B0F4700BE977F /* BenefitView.swift in Sources */,
+				E0C70AEF286D22D400BE977F /* RecommendView.swift in Sources */,
+				E0C70AEC286C982500BE977F /* TransferView.swift in Sources */,
 				E0C22AB52869F4C700CBCD94 /* HomeView.swift in Sources */,
+				E0C70AF1286D22F400BE977F /* AccountView.swift in Sources */,
 				E0C22AA92869CAA800CBCD94 /* ContentView.swift in Sources */,
 				E0C22AA72869CAA800CBCD94 /* _627App.swift in Sources */,
 			);

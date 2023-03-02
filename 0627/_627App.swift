@@ -11,7 +11,8 @@ import SwiftUI
 struct _627App: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+//            HomeView()
+            PresentationView()
         }
     }
 }
